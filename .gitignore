@@ -1,0 +1,4 @@
+.nic.*
+.lockfile
+.set-hostname
+.README.md.swp

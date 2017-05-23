@@ -1,0 +1,20 @@
+INTERACTIVE=false
+
+# Define USB3/Gigabit Ethernet adapter chipset vendor
+USB_NIC_CHIPSET="AX88179"
+
+# Network settings for router's internal network
+PREFIX=192.168.96
+SUBNET=$PREFIX.0
+BROADCAST=$PREFIX.255
+ROUTER=$PREFIX.1
+NETMASK=255.255.255.0
+CIDR=/24
+
+# NGINX redirect port
+REDIR_PORT=3129
+AKAMAI_PREFIX=http://ozolive-i.akamaihd.net
+
+# Define the name of the NGINX configuration file that will be written out
+NGINX_REDIR_CONF=webcache.http.conf
+NGINX_CONTAINER=centos7-nginx
