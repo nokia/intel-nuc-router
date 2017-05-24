@@ -99,6 +99,7 @@ echo "The system will automatically reboot once the script completes"
 freshenSystem
 echo "Enabling automatic system software updates"
 systemctl enable yum-cron
+systemctl start yum-cron
 
 # External NIC detection
 echo "We will attempt to auto-detect network interfaces to configure the router"
