@@ -52,7 +52,7 @@ When connected to Nokia internal networks, the build process is as follows (from
 
     $ sudo -i
     # yum -y install git
-    # git clone https://bitbucket.dev.int.nokia.com/scm/toc/intel-nuc-router.git
+    # git clone https://github.com/mwatkins-nt/intel-nuc-router.git
     # cd intel-nuc-router
     # ./router.sh
 
