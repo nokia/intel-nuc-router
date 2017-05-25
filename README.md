@@ -72,7 +72,7 @@ It should be possible to test that the NUC is functioning as a router by connect
 
 At this point, only basic router functionality will be working. You now need to install NGINX using the code and instructions here:
 
-https://bitbucket.dev.int.nokia.com/projects/TOC/repos/nginx-native/browse
+https://github.com/mwatkins-nt/nginx-config
 
 ## Router Management and Monitoring
 
