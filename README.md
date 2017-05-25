@@ -70,7 +70,7 @@ Some common problems you may encounter with the build process are:
 
 It should be possible to test that the NUC is functioning as a router by connecting a computer to the USB3/Gigabit Ethernet adapter. The computer should have working network access through the NUC, but using private addressing from the pool 192.168.96.0/24. This addressing will be different from the network that the NUC is using to get Internet access (through the embedded NIC).
 
-At this point, only basic router functionality will be working. You now need to install NGINX using teh code and instructions here:
+At this point, only basic router functionality will be working. You now need to install NGINX using the code and instructions here:
 
 https://bitbucket.dev.int.nokia.com/projects/TOC/repos/nginx-native/browse
 
