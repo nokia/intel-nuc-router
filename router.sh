@@ -40,6 +40,16 @@ yum -y update
 yum -y install epel-release
 yum -y install git lshw yum-cron which less policycoreutils-python yum-utils wget curl bind-utils net-tools telnet nmap-ncat httpd-tools nmap dhcp ntp iptables-services zip unzip nload iftop
 
+##### Enable NTP
+echo "Enabling NTP"
+sudo systemctl enable ntpd
+sudo systemctl start ntpd
+
+##### Harden the system
+authconfig --passalgo=sha512 --update
+systemctl enable auditd.service
+systemctl start auditd.service
+
 # Reboot system if running the script for the first time
 if [ ! -f .nic.internal ]
 then
