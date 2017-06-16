@@ -10,4 +10,4 @@ then
 fi
 
 cd create_ap; sudo make install
-create_ap $WIFI_DEV $ETH_DEV NUC-Router NUC-Router
+create_ap $WIFI_DEV $ETH_DEV Intel-NUC-Router Intel-NUC-Router

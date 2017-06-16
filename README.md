@@ -378,7 +378,7 @@ You can have the NUC behave as a wireless access-point by running the provided s
 
 This will create an SSID/network called:
 
-    NUC-Router
+    Intel-NUC-Router
 
 The default passphrase is the same as the network name.
 
