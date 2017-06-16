@@ -381,3 +381,9 @@ This will create an SSID/network called:
     NUC-Router
 
 The default passphrase is the same as the network name.
+
+Before running the script, you will have to edit the file and configure the following settings to use the correct wired and wireless interface devices. This is necessary because these parameters vary across different generations of Intel NUC hardware.
+
+    WIFI_DEV=wlp2s0
+    ETH_DEV=enp0s25
+
