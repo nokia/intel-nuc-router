@@ -396,3 +396,9 @@ Before running the script for the first time, you will have to edit the file and
 You can use the following command to list the available network interfaces on your system:
 
     ip addr
+
+If for whatever reason you can't see a wireless interface, make sure your system is up-to-date and running the latest kernel.
+
+    sudo yum -y update
+
+If you still have problems seeing the wireless interface, you may have to manually install a microcode bundle for the wireless chipset in your NUC. These are available from Intel's NUC support page.
