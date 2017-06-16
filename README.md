@@ -370,3 +370,14 @@ Typical output looks like:
     RX:                       0B               0b               0b      0b      0b
     TOTAL:                    0B               0b               0b      0b      0b 
 
+### Wi-Fi Access Point
+
+You can have the NUC behave as a wireless access-point by running the provided script:
+
+    wifi-ap.sh
+
+This will create an SSID/network called:
+
+    NUC-Router
+
+The default passphrase is the same as the network name.
