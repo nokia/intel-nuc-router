@@ -382,7 +382,13 @@ This will create an SSID/network called:
 
 The default passphrase is the same as the network name.
 
-Before running the script, you will have to edit the file and configure the following settings to use the correct wired and wireless interface devices. This is necessary because these parameters vary across different generations of Intel NUC hardware.
+The script will not fork into the background of your terminal by default, so you will need to press ctrl-c when you are finished with the access-point. If you want to run the access-point in the background, invoke it as follows:
+
+    ./wifi-ap.sh &
+
+Just bear in mind that if you restart the NUC, the access-point will stop running.
+
+Before running the script for the first time, you will have to edit the file and configure the following settings to use the correct wired and wireless interface devices. This is necessary because these parameters vary across different generations of Intel NUC hardware.
 
     WIFI_DEV=wlp2s0
     ETH_DEV=enp0s25
