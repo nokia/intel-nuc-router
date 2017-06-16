@@ -7,8 +7,7 @@ sudo yum -y install haveged iw hostapd
 if [ ! -d create_ap ]
 then
 	sudo git clone https://github.com/oblique/create_ap
-else
-	cd create_ap; sudo make install
 fi
 
+cd create_ap; sudo make install
 create_ap $WIFI_DEV $ETH_DEV NUC-Router NUC-Router
