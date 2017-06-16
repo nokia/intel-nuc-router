@@ -393,3 +393,6 @@ Before running the script for the first time, you will have to edit the file and
     WIFI_DEV=wlp2s0
     ETH_DEV=enp0s25
 
+You can use the following command to list the available network interfaces on your system:
+
+    ip addr
