@@ -11,4 +11,4 @@ else
 	cd create_ap; sudo make install
 fi
 
-create_ap $WIFI_DEV $ETH_DEV NUC-Router nokia123
+create_ap $WIFI_DEV $ETH_DEV NUC-Router NUC-Router

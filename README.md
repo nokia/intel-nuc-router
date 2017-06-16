@@ -374,7 +374,7 @@ Typical output looks like:
 
 You can have the NUC behave as a wireless access-point by running the provided script:
 
-    wifi-ap.sh
+    ./wifi-ap.sh
 
 This will create an SSID/network called:
 
