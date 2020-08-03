@@ -402,3 +402,8 @@ If for whatever reason you can't see a wireless interface, make sure your system
     sudo yum -y update
 
 If you still have problems seeing the wireless interface, you may have to manually install a microcode bundle for the wireless chipset in your NUC. These are available from Intel's NUC support page.
+
+
+## License
+
+This project is licensed under the GPL-3.0 license - see the [LICENSE](https://github.com/nokia/intel-nuc-router/blob/master/LICENSE.txt).
